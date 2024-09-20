@@ -14,12 +14,14 @@
 >    Open Browser    url=http://localhost:3000/    browser=Chrome
 >
 > Preencher os campos do formulário
+> 
 >    Input Text    id:from-nome     Angelica
 >    Input Text    id:from-cargo    Engenharia de Automação
 >    Input Text    id:from-image    https://picsum.photos/200/300
 >    Click Element    class:lista-suspensa
 >    Click Element    //option[contains(.,'Programação')]
 >    Sleep    10s
+> 
 >    Click Element    form-botao
 >    Element Should Be Visible    class:colaborador
 >    Sleep    5s 
